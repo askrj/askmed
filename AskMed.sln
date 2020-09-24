@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacao", "AskMed\Aplicacao.csproj", "{99F78E8D-A57A-4129-B20A-CF2452008769}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Aplicacao", "1-Aplicacao", "{60AA9401-59D7-41C3-A649-59895BF1A17D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Dominio", "2-Dominio", "{17590F8B-B34E-4870-9A7B-8CEC4FE9E665}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Repositorio", "3-Repositorio", "{18343C40-F268-47FD-8972-6727CEFA6324}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infraestrutura", "4-Infraestrutura", "{E9F68891-82CC-4D2A-89DB-BBAF54C3934C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{A9293795-0522-41E3-8A1D-1B893E14F1FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99F78E8D-A57A-4129-B20A-CF2452008769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F78E8D-A57A-4129-B20A-CF2452008769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F78E8D-A57A-4129-B20A-CF2452008769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F78E8D-A57A-4129-B20A-CF2452008769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9293795-0522-41E3-8A1D-1B893E14F1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9293795-0522-41E3-8A1D-1B893E14F1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9293795-0522-41E3-8A1D-1B893E14F1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9293795-0522-41E3-8A1D-1B893E14F1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99F78E8D-A57A-4129-B20A-CF2452008769} = {60AA9401-59D7-41C3-A649-59895BF1A17D}
+		{A9293795-0522-41E3-8A1D-1B893E14F1FC} = {17590F8B-B34E-4870-9A7B-8CEC4FE9E665}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A78F138-8F98-40A3-A21C-B2779593F290}
+	EndGlobalSection
+EndGlobal
